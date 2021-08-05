@@ -1,1 +1,3 @@
 # text-mined-solution-synthesis_public
+
+In our project on [text-mining data from literature](https://ceder.berkeley.edu/text-mined-synthesis/), we applied advanced machine learning and natural language processing techniques to construct a dataset of 35,675 solution-based synthesis "recipes" extracted from the scientific literature. Each recipe contains essential synthesis information including the precursors and target materials, their quantities, and the synthesis actions and corresponding attributes. Every recipe is also augmented with the reaction formula. Through this work, we are making freely available the first large dataset of solution-based inorganic materials synthesis recipes.
