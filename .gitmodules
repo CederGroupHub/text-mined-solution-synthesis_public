@@ -1,0 +1,3 @@
+[submodule "MatBERT-synthesis-classifier"]
+	path = MatBERT-synthesis-classifier
+	url = https://github.com/CederGroupHub/MatBERT-synthesis-classifier.git
