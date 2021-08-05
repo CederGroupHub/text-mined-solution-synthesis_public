@@ -7,3 +7,6 @@
 [submodule "MaterialParser"]
 	path = MaterialParser
 	url = https://github.com/CederGroupHub/MaterialParser.git
+[submodule "ValenceSolver"]
+	path = ValenceSolver
+	url = git@github.com:CederGroupHub/ValenceSolver.git
