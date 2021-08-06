@@ -13,6 +13,3 @@
 [submodule "MaterialAmountExtractor"]
 	path = MaterialAmountExtractor
 	url = git@github.com:CederGroupHub/MaterialAmountExtractor.git
-[submodule "OperationsExtraction"]
-	path = OperationsExtraction
-	url = https://github.com/CederGroupHub/OperationsExtraction.git
