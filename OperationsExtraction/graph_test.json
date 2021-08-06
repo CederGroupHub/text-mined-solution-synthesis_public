@@ -1,0 +1,1177 @@
+[
+  {
+    "tokens": [
+      "The",
+      "LiNi0.95Ti0.05O2",
+      "material",
+      "was",
+      "prepared",
+      "by",
+      "employing",
+      "a",
+      "solid",
+      "-",
+      "state",
+      "reaction",
+      "between",
+      "LiOH",
+      ",",
+      "Ni(OH)2",
+      ",",
+      "and",
+      "TiO2",
+      "(",
+      "anatase",
+      ")",
+      "powders",
+      "."
+    ],
+    "materials": [],
+    "graph": [
+      {
+        "op_id": 4,
+        "op_type": "StartingSynthesis",
+        "subsent": [
+          4,
+          6
+        ],
+        "subject": "The LiNi0.95Ti0.05O2 material",
+        "op_token": "prepared",
+        "temp_values": [],
+        "time_values": [],
+        "env_toks": [
+          "",
+          ""
+        ],
+        "env_ids": [
+          [],
+          []
+        ],
+        "ref_op": false
+      }
+    ]
+  },
+  {
+    "tokens": [
+      "The",
+      "LiNi0.95Ti0.05O2",
+      "material",
+      "was",
+      "prepared",
+      "from",
+      "LiOH",
+      ",",
+      "Ni(OH)2",
+      ",",
+      "and",
+      "TiO2",
+      "(",
+      "anatase",
+      ")",
+      "powders",
+      "at",
+      "900",
+      "C",
+      "."
+    ],
+    "materials": [{"text": "LiOH", "tok_ids": [6]},
+                  {"text": "Ni(OH)2", "tok_ids": [8]},
+                  {"text": "TiO2", "tok_ids": [11]}
+                 ],
+    "graph": [
+      {
+        "op_id": 4,
+        "op_type": "StartingSynthesis",
+        "subsent": [
+          4,
+          20
+        ],
+        "subject": "The LiNi0.95Ti0.05O2 material",
+        "op_token": "prepared",
+        "temp_values": [],
+        "time_values": [],
+        "env_toks": [
+          "",
+          ""
+        ],
+        "env_ids": [
+          [],
+          []
+        ],
+        "ref_op": false
+      }
+    ]
+  },
+  {
+    "tokens": [
+      "The",
+      "raw",
+      "material",
+      "powders",
+      "were",
+      "ballmilled",
+      "for",
+      "24",
+      "h",
+      "in",
+      "acetone",
+      ",",
+      "then",
+      "calcined",
+      "at",
+      "550",
+      "°",
+      "C",
+      "."
+    ],
+    "materials": [{"text": "acetone", "tok_ids": [10]}],
+    "graph": [
+      {
+        "op_id": 5,
+        "op_type": "MixingOperation",
+        "subsent": [
+          5,
+          13
+        ],
+        "subject": "The raw material powders",
+        "op_token": "ballmilled",
+        "temp_values": [],
+        "time_values": [
+          {
+            "max": 24.0,
+            "min": 24.0,
+            "values": [
+              24.0
+            ],
+            "tok_ids": [
+              7
+            ],
+            "units": "h"
+          }
+        ],
+        "env_toks": [
+          "acetone",
+          ""
+        ],
+        "env_ids": [
+          [10],
+          []
+        ],
+        "ref_op": false
+      },
+      {
+        "op_id": 13,
+        "op_type": "HeatingOperation",
+        "subsent": [
+          13,
+          19
+        ],
+        "subject": "The raw material powders",
+        "op_token": "calcined",
+        "temp_values": [
+          {
+            "max": 550.0,
+            "min": 550.0,
+            "values": [
+              550.0
+            ],
+            "tok_ids": [
+              15
+            ],
+            "units": "°C"
+          }
+        ],
+        "time_values": [],
+        "env_toks": [
+          "",
+          ""
+        ],
+        "env_ids": [
+          [],
+          []
+        ],
+        "ref_op": false
+      }
+    ]
+  },
+  {
+    "tokens": [
+      "The",
+      "raw",
+      "material",
+      "powders",
+      "were",
+      "ballmilled",
+      "for",
+      "24",
+      "h",
+      "in",
+      "acetone",
+      "and",
+      "calcined",
+      "at",
+      "550",
+      "°",
+      "C",
+      "."
+    ],
+    "materials": [{"text": "acetone", "tok_ids": [10]}],
+    "graph": [
+      {
+        "op_id": 5,
+        "op_type": "MixingOperation",
+        "subsent": [
+          5,
+          12
+        ],
+        "subject": "The raw material powders",
+        "op_token": "ballmilled",
+        "temp_values": [],
+        "time_values": [
+          {
+            "max": 24.0,
+            "min": 24.0,
+            "values": [
+              24.0
+            ],
+            "tok_ids": [
+              7
+            ],
+            "units": "h"
+          }
+        ],
+        "env_toks": [
+          "acetone",
+          ""
+        ],
+        "env_ids": [
+          [10],
+          []
+        ],
+        "ref_op": false
+      },
+      {
+        "op_id": 12,
+        "op_type": "HeatingOperation",
+        "subsent": [
+          12,
+          18
+        ],
+        "subject": "The raw material powders",
+        "op_token": "calcined",
+        "temp_values": [
+          {
+            "max": 550.0,
+            "min": 550.0,
+            "values": [
+              550.0
+            ],
+            "tok_ids": [
+              14
+            ],
+            "units": "°C"
+          }
+        ],
+        "time_values": [],
+        "env_toks": [
+          "",
+          ""
+        ],
+        "env_ids": [
+          [],
+          []
+        ],
+        "ref_op": false
+      }
+    ]
+  },
+  {
+    "tokens": [
+      "The",
+      "powders",
+      "of",
+      "AAA",
+      ",",
+      "BBB",
+      "and",
+      "CCC",
+      "were",
+      "ballmilled",
+      "for",
+      "24",
+      "h",
+      "in",
+      "ethanol",
+      ",",
+      "then",
+      "the",
+      "mixture",
+      "was",
+      "calcined",
+      "at",
+      "550",
+      "°",
+      "C",
+      "."
+    ],
+    "materials": [{"text": "ethanol", "tok_ids": [14]}],
+    "graph": [
+      {
+        "op_id": 9,
+        "op_type": "MixingOperation",
+        "subsent": [
+          9,
+          20
+        ],
+        "subject": "The powders of AAA , BBB and CCC",
+        "op_token": "ballmilled",
+        "temp_values": [],
+        "time_values": [
+          {
+            "max": 24.0,
+            "min": 24.0,
+            "values": [
+              24.0
+            ],
+            "tok_ids": [
+              11
+            ],
+            "units": "h"
+          }
+        ],
+        "env_toks": [
+          "ethanol",
+          ""
+        ],
+        "env_ids": [
+          [14],
+          []
+        ],
+        "ref_op": false
+      },
+      {
+        "op_id": 20,
+        "op_type": "HeatingOperation",
+        "subsent": [
+          20,
+          26
+        ],
+        "subject": "the mixture",
+        "op_token": "calcined",
+        "temp_values": [
+          {
+            "max": 550.0,
+            "min": 550.0,
+            "values": [
+              550.0
+            ],
+            "tok_ids": [
+              22
+            ],
+            "units": "°C"
+          }
+        ],
+        "time_values": [],
+        "env_toks": [
+          "",
+          ""
+        ],
+        "env_ids": [
+          [],
+          []
+        ],
+        "ref_op": false
+      }
+    ]
+  },
+  {
+    "tokens": [
+      "After",
+      "heating",
+      ",",
+      "the",
+      "sample",
+      "was",
+      "ground",
+      ",",
+      "then",
+      "heated",
+      "again",
+      "at",
+      "650",
+      "°",
+      "C",
+      "."
+    ],
+    "materials": [],
+    "graph": [
+      {
+        "op_id": 1,
+        "op_type": "HeatingOperation",
+        "subsent": [
+          1,
+          6
+        ],
+        "subject": "",
+        "op_token": "heating",
+        "temp_values": [],
+        "time_values": [],
+        "env_toks": [
+          "",
+          ""
+        ],
+        "env_ids": [
+          [],
+          []
+        ],
+        "ref_op": true
+      },
+      {
+        "op_id": 6,
+        "op_type": "MixingOperation",
+        "subsent": [
+          6,
+          9
+        ],
+        "subject": "the sample",
+        "op_token": "ground",
+        "temp_values": [],
+        "time_values": [],
+        "env_toks": [
+          "",
+          ""
+        ],
+        "env_ids": [
+          [],
+          []
+        ],
+        "ref_op": false
+      },
+      {
+        "op_id": 9,
+        "op_type": "HeatingOperation",
+        "subsent": [
+          9,
+          16
+        ],
+        "subject": "the sample",
+        "op_token": "heated",
+        "temp_values": [
+          {
+            "max": 650.0,
+            "min": 650.0,
+            "values": [
+              650.0
+            ],
+            "tok_ids": [
+              12
+            ],
+            "units": "°C"
+          }
+        ],
+        "time_values": [],
+        "env_toks": [
+          "",
+          ""
+        ],
+        "env_ids": [
+          [],
+          []
+        ],
+        "ref_op": false
+      }
+    ]
+  },
+  {
+    "tokens": [
+      "After",
+      "heating",
+      ",",
+      "the",
+      "sample",
+      "was",
+      "pressed",
+      ",",
+      "then",
+      "heated",
+      "again",
+      "at",
+      "650",
+      "°",
+      "C",
+      "."
+    ],
+    "materials": [],
+    "graph": [
+      {
+        "op_id": 1,
+        "op_type": "HeatingOperation",
+        "subsent": [
+          1,
+          6
+        ],
+        "subject": "",
+        "op_token": "heating",
+        "temp_values": [],
+        "time_values": [],
+        "env_toks": [
+          "",
+          ""
+        ],
+        "env_ids": [
+          [],
+          []
+        ],
+        "ref_op": true
+      },
+      {
+        "op_id": 6,
+        "op_type": "ShapingOperation",
+        "subsent": [
+          6,
+          9
+        ],
+        "subject": "the sample",
+        "op_token": "pressed",
+        "temp_values": [],
+        "time_values": [],
+        "env_toks": [
+          "",
+          ""
+        ],
+        "env_ids": [
+          [],
+          []
+        ],
+        "ref_op": false
+      },
+      {
+        "op_id": 9,
+        "op_type": "HeatingOperation",
+        "subsent": [
+          9,
+          16
+        ],
+        "subject": "the sample",
+        "op_token": "heated",
+        "temp_values": [
+          {
+            "max": 650.0,
+            "min": 650.0,
+            "values": [
+              650.0
+            ],
+            "tok_ids": [
+              12
+            ],
+            "units": "°C"
+          }
+        ],
+        "time_values": [],
+        "env_toks": [
+          "",
+          ""
+        ],
+        "env_ids": [
+          [],
+          []
+        ],
+        "ref_op": false
+      }
+    ]
+  },
+  {
+    "tokens": [
+      "The",
+      "mixed",
+      "sample",
+      "was",
+      "pressed",
+      "and",
+      "fired",
+      "at",
+      "750",
+      "°C",
+      "and",
+      "850°C",
+      "under",
+      "an",
+      "oxygen",
+      "stream",
+      "for",
+      "30",
+      "h",
+      "."
+    ],
+    "materials": [{"text": "oxygen", "tok_ids": [14]}],
+    "graph": [
+      {
+        "op_id": 1,
+        "op_type": "MixingOperation",
+        "subsent": [
+          1,
+          4
+        ],
+        "subject": "",
+        "op_token": "mixed",
+        "temp_values": [],
+        "time_values": [],
+        "env_toks": [
+          "",
+          ""
+        ],
+        "env_ids": [
+          [],
+          []
+        ],
+        "ref_op": true
+      },
+      {
+        "op_id": 4,
+        "op_type": "ShapingOperation",
+        "subsent": [
+          4,
+          6
+        ],
+        "subject": "The mixed sample",
+        "op_token": "pressed",
+        "temp_values": [],
+        "time_values": [],
+        "env_toks": [
+          "",
+          ""
+        ],
+        "env_ids": [
+          [],
+          []
+        ],
+        "ref_op": false
+      },
+      {
+        "op_id": 6,
+        "op_type": "HeatingOperation",
+        "subsent": [
+          6,
+          20
+        ],
+        "subject": "The mixed sample",
+        "op_token": "fired",
+        "temp_values": [
+          {
+            "max": 850.0,
+            "min": 750.0,
+            "values": [
+              850.0,
+              750.0
+            ],
+            "tok_ids": [
+              11,
+              8
+            ],
+            "units": "°C"
+          }
+        ],
+        "time_values": [
+          {
+            "max": 30.0,
+            "min": 30.0,
+            "values": [
+              30.0
+            ],
+            "tok_ids": [
+              17
+            ],
+            "units": "h"
+          }
+        ],
+        "env_toks": [
+          "oxygen",
+          ""
+        ],
+        "env_ids": [
+          [14],
+          []
+        ],
+        "ref_op": false
+      }
+    ]
+  },
+  {
+    "tokens": [
+      "Because",
+      "particle",
+      "morphologies",
+      "associated",
+      "with",
+      "process",
+      "conditions",
+      "were",
+      "being",
+      "investigated",
+      ",",
+      "some",
+      "samples",
+      "were",
+      "directly",
+      "heated",
+      "at",
+      "950",
+      "°C",
+      "by",
+      "skipping",
+      "the",
+      "calcination",
+      "stage",
+      "."
+    ],
+    "materials": [],
+    "graph": [
+      {
+        "op_id": 15,
+        "op_type": "HeatingOperation",
+        "subsent": [
+          15,
+          20
+        ],
+        "subject": "some samples",
+        "op_token": "heated",
+        "temp_values": [
+          {
+            "max": 950.0,
+            "min": 950.0,
+            "values": [
+              950.0
+            ],
+            "tok_ids": [
+              17
+            ],
+            "units": "°C"
+          }
+        ],
+        "time_values": [],
+        "env_toks": [
+          "",
+          ""
+        ],
+        "env_ids": [
+          [],
+          []
+        ],
+        "ref_op": false
+      }
+    ]
+  },
+  {
+    "tokens": [
+      "Mixed",
+      "sample",
+      "was",
+      "pressed",
+      "and",
+      "fired",
+      "at",
+      "750",
+      "°C",
+      "for",
+      "30",
+      "h",
+      "."
+    ],
+    "materials": [],
+    "graph": [
+      {
+        "op_id": 0,
+        "op_type": "MixingOperation",
+        "subsent": [
+          0,
+          3
+        ],
+        "subject": "",
+        "op_token": "Mixed",
+        "temp_values": [],
+        "time_values": [],
+        "env_toks": [
+          "",
+          ""
+        ],
+        "env_ids": [
+          [],
+          []
+        ],
+        "ref_op": true
+      },
+      {
+        "op_id": 3,
+        "op_type": "ShapingOperation",
+        "subsent": [
+          3,
+          5
+        ],
+        "subject": "Mixed sample",
+        "op_token": "pressed",
+        "temp_values": [],
+        "time_values": [],
+        "env_toks": [
+          "",
+          ""
+        ],
+        "env_ids": [
+          [],
+          []
+        ],
+        "ref_op": false
+      },
+      {
+        "op_id": 5,
+        "op_type": "HeatingOperation",
+        "subsent": [
+          5,
+          13
+        ],
+        "subject": "Mixed sample",
+        "op_token": "fired",
+        "temp_values": [
+          {
+            "max": 750.0,
+            "min": 750.0,
+            "values": [
+              750.0
+            ],
+            "tok_ids": [
+              7
+            ],
+            "units": "°C"
+          }
+        ],
+        "time_values": [
+          {
+            "max": 30.0,
+            "min": 30.0,
+            "values": [
+              30.0
+            ],
+            "tok_ids": [
+              10
+            ],
+            "units": "h"
+          }
+        ],
+        "env_toks": [
+          "",
+          ""
+        ],
+        "env_ids": [
+          [],
+          []
+        ],
+        "ref_op": false
+      }
+    ]
+  },
+  {
+    "tokens": [
+      "The",
+      "obtained",
+      "precursors",
+      "were",
+      "calcined",
+      "in",
+      "an",
+      "argon",
+      "atmosphere",
+      "at",
+      "673",
+      "K",
+      "for",
+      "3",
+      "h",
+      "and",
+      "then",
+      "passivated",
+      "by",
+      "1",
+      "%",
+      "oxygen",
+      "diluted",
+      "by",
+      "nitrogen",
+      "for",
+      "4",
+      "h",
+      "to",
+      "get",
+      "the",
+      "as-burnt",
+      "catalysts",
+      "."
+    ],
+    "materials": [{"text": "argon", "tok_ids": [7]},
+                  {"text": "oxygen", "tok_ids": [21]},
+                  {"text": "nitrogen", "tok_ids": [24]}
+                 ],
+    "graph": [
+      {
+        "op_id": 4,
+        "op_type": "HeatingOperation",
+        "subsent": [
+          4,
+          17
+        ],
+        "subject": "The obtained precursors",
+        "op_token": "calcined",
+        "temp_values": [
+          {
+            "max": 673.0,
+            "min": 673.0,
+            "values": [
+              673.0
+            ],
+            "tok_ids": [
+              10
+            ],
+            "units": "K"
+          }
+        ],
+        "time_values": [
+          {
+            "max": 3.0,
+            "min": 3.0,
+            "values": [
+              3.0
+            ],
+            "tok_ids": [
+              13
+            ],
+            "units": "h"
+          }
+        ],
+        "env_toks": [
+          "argon",
+          ""
+        ],
+        "env_ids": [
+          [7],
+          []
+        ],
+        "ref_op": false
+      }
+    ]
+  },
+  {
+    "tokens": [
+      "The",
+      "powder",
+      "was",
+      "pressed",
+      ",",
+      "the",
+      "pressed",
+      "sample",
+      "was",
+      "fired",
+      "at",
+      "750",
+      "°C",
+      "for",
+      "30",
+      "h",
+      "in",
+      "the",
+      "inert",
+      "atmosphere",
+      "."
+    ],
+    "materials": [],
+    "graph": [
+      {
+        "op_id": 3,
+        "op_type": "ShapingOperation",
+        "subsent": [
+          3,
+          6
+        ],
+        "subject": "The powder",
+        "op_token": "pressed",
+        "temp_values": [],
+        "time_values": [],
+        "env_toks": [
+          "",
+          ""
+        ],
+        "env_ids": [
+          [],
+          []
+        ],
+        "ref_op": false
+      },
+      {
+        "op_id": 6,
+        "op_type": "ShapingOperation",
+        "subsent": [
+          6,
+          9
+        ],
+        "subject": "",
+        "op_token": "pressed",
+        "temp_values": [],
+        "time_values": [],
+        "env_toks": [
+          "",
+          ""
+        ],
+        "env_ids": [
+          [],
+          []
+        ],
+        "ref_op": true
+      },
+      {
+        "op_id": 9,
+        "op_type": "HeatingOperation",
+        "subsent": [
+          9,
+          21
+        ],
+        "subject": "the pressed sample",
+        "op_token": "fired",
+        "temp_values": [
+          {
+            "max": 750.0,
+            "min": 750.0,
+            "values": [
+              750.0
+            ],
+            "tok_ids": [
+              11
+            ],
+            "units": "°C"
+          }
+        ],
+        "time_values": [
+          {
+            "max": 30.0,
+            "min": 30.0,
+            "values": [
+              30.0
+            ],
+            "tok_ids": [
+              14
+            ],
+            "units": "h"
+          }
+        ],
+        "env_toks": [
+          "inert",
+          ""
+        ],
+        "env_ids": [
+          [18],
+          []
+        ],
+        "ref_op": false
+      }
+    ]
+  },
+  {
+    "tokens": [
+      "The",
+      "obtained",
+      "mixed",
+      "hydroxide",
+      "was",
+      "first",
+      "filtered",
+      "and",
+      "thoroughly",
+      "washed",
+      "with",
+      "distilled",
+      "water",
+      "and",
+      "then",
+      "calcined",
+      "at",
+      "200",
+      "°",
+      "C",
+      "for",
+      "1",
+      "day",
+      "in",
+      "air",
+      "."
+    ],
+    "materials": [{"text": "hydroxide", "tok_ids": [4]},
+                  {"text": "water", "tok_ids": [13]},
+                  {"text": "air", "tok_ids": [25]}
+                 ],
+    "graph": [
+      {
+        "op_id": 2,
+        "op_type": "MixingOperation",
+        "subsent": [
+          2,
+          6
+        ],
+        "subject": "",
+        "op_token": "mixed",
+        "temp_values": [],
+        "time_values": [],
+        "env_toks": [
+          "",
+          ""
+        ],
+        "env_ids": [
+          [],
+          []
+        ],
+        "ref_op": false
+      },
+      {
+        "op_id": 15,
+        "op_type": "HeatingOperation",
+        "subsent": [
+          15,
+          26
+        ],
+        "subject": "The obtained mixed hydroxide",
+        "op_token": "calcined",
+        "temp_values": [
+          {
+            "max": 200.0,
+            "min": 200.0,
+            "values": [
+              200.0
+            ],
+            "tok_ids": [
+              17
+            ],
+            "units": "°C"
+          }
+        ],
+        "time_values": [
+          {
+            "max": 1.0,
+            "min": 1.0,
+            "values": [
+              1.0
+            ],
+            "tok_ids": [
+              21
+            ],
+            "units": "day"
+          }
+        ],
+        "env_toks": [
+          "air",
+          ""
+        ],
+        "env_ids": [
+          [25],
+          []
+        ],
+        "ref_op": false
+      }
+    ]
+  }
+]
